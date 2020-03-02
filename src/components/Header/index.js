@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, TouchableHighlight } from "react-native";
 
 export default function Header() {
   return (
@@ -16,11 +16,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     height: 56,
     textAlign: "center",
-    elevation:6
+    elevation: 6
   },
-  title:{
-      fontSize:18,
-      fontWeight:'bold',
-      color:'#fff'
+  title: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#fff"
   }
 });
